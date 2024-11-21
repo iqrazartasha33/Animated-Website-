@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Animated Website!</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+
+   <nav class="navbar">
+    <div class="nav-container">
+        <a href="#" class="nav-logo">Animated Website</a>
+        <ul class="nav-menu">
+            <li class="nav-item"><a href="#home" class="nav-link" id="active">Home</a></li>
+                    <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+            <li class="nav-item"><a href="#products" class="nav-link">Products</a></li>
+            <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+        <div class="theme-toggle">
+            <span id="toggleIcon">🌙</span> 
+        </div>
+        <div class="nav-toggle" id="mobile-menu">&#9776;</div>
+    </div>
+</nav>
+<hr/> 
+
+    <section class="parallax-home">
+      <img src="./XCyudM.png" alt="" id="sky" />
+      <img src="./iUOUhN.png" alt="" id="moon" />
+      <img src="./xqZrUG.png" alt="" id="" />
+      <img src="./cFqJnK.png" alt="" id="" />
+      <img src="./sbfGuZ.png" alt="" id="" />
+      <img src="./VqwyOR.png" alt="" id="" />
+      <img src="./vpEZyI.png" alt="" id="train" />
+      <img src="./gNCDyJ.png" alt="" id="" />
+      <h1 id="text">Parallax Website</h1>
+      <img src="./jcRfuz.png" alt="" id="" />
+      <img src="./SnzXWa.png" alt="" id="" />
+    </section>
+
+
+    <section class="about" id="about">
+     <div class="info-box">
+        <h2>About Us</h2>
+        <p>We are a team of passionate individuals who strive to create innovative solutions that make a
+           difference in the world. Our commitment to excellence and our vision
+            for the future drives everything we do.</p>
+      </p>
+     <a href="#" class="btn">Read More</a>
+     </div>
+     <img src="./waterfall.png" alt="" id="waterfall" class="about-waterfall"/>
+     <img src="./grWzGX.png" alt="" id="" />
+     <img src="./desertmoon.png" alt="" id="desert_moon" />
+     <img src="./desert.png" alt="" id="" />
+     <img src="./desertrock.png" alt="" id="" />
+     <img src="./vYJNqK.png" alt="" id="" />
+     <img src="./man.png" alt="" id="man" />
+     <img src="./grass.png" alt="" id="" />
+    
+
+    </section>
+
+
+    <section class="products">
+    <h2>Our Products</h2>
+    <div class="product-card">
+        <div class="card">
+            <img src="./salmon.png" alt="" id="" />
+            <div class="info">
+                <div class="price-name">
+                    <h3>Salmon</h3>
+                    <span>$150</span>
+                </div>
+                <p>"Fresh and high-quality salmon fish available for sale 
+                  perfect for your next meal!"
+                </p>
+                <a href="#" class="btn">Go Shop</a>
+            </div>
+        </div>
+
+
+        
+    <div class="card">
+        <img src="./tuna.png" alt="" id="" />
+        <div class="info">
+            <div class="price-name">
+                <h3>Tuna</h3>
+                <span>$100</span>
+            </div>
+            <p>Our fresh tuna fish is now available for
+               sale—perfect for grilling,seafood dish you love!
+            </p>
+            <a href="#" class="btn">Go Shop</a>
+        </div>
+    </div>
+
+
+    <div class="card">
+        <img src="./swordfish.png" alt="" id="" />
+        <div class="info">
+            <div class="price-name">
+                <h3>Swordfish</h3>
+                <span>$90</span>
+            </div>
+            <p>"Shop now for fresh & high quality sword fish, perfect
+               for grilling, baking, or frying!"
+
+            </p>
+            <a href="#" class="btn">Go Shop</a>
+        </div>
+    </div>
+
+
+    <div class="card">
+        <img src="./snapper.png" alt="" id="" />
+        <div class="info">
+            <div class="price-name">
+                <h3>Snapper</h3>
+                <span>$10</span>
+            </div>
+            <p>"Get your hands on fresh, premium snapper fish 
+               a delicious choice for any dish!"
+
+            </p>
+            <a href="#" class="btn">Go Shop</a>
+        </div>
+    </div>
+
+
+</div>
+    </section>
+
+    <script src="./app.js"></script>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+          const menuToggle = document.querySelector('.menu-toggle');
+          const navList = document.querySelector('.navlist');
+      
+          menuToggle.addEventListener('click', () => {
+            navList.classList.toggle('active');
+          });
+        });
+      </script>
+      
+  </body>
+</html>
